@@ -1,0 +1,28 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+    clrscr();
+    int a, b, total;
+
+    for(a=1; a<=5; a++)
+    {
+       cout<<"\n";
+       total=0;
+       for(b=1; b<=a; b++)
+       {
+	  if(a==b)
+	  {
+	     cout<<b <<" " <<"=";
+	  }
+	  else
+	 {
+	     cout<<b <<" " <<"+" <<" ";
+	   }
+	  total=total+b;
+
+	}
+	cout<<total;
+    }
+    getch();
+}

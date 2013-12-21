@@ -1,0 +1,21 @@
+#include<iostream.h>
+#include<conio.h>
+void pangkat(int a, int b) ;
+void main()   //fungsi main untuk memanggil
+{
+clrscr();
+pangkat(2,4);
+pangkat(2,5);
+getch();
+}
+
+void pangkat(int a, int b) //fungsi untuk menghitung
+{
+  int hasil=1;
+  for(int x=0;x<b;x++)
+  {
+  hasil=hasil*a;
+  }
+  cout<<hasil;
+  cout<<endl;
+}

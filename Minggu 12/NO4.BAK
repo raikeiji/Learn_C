@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<conio.h>
+int bulat(int a) ;
+void main()   //fungsi main untuk memanggil
+{
+clrscr();
+cout<<bulat(4)<<endl;
+cout<<bulat(5)<<endl;
+cout<<bulat(6)<<endl;
+getch();
+}
+
+int bulat(int a) //fungsi untuk menghitung
+{
+    if (a%2==0)
+    {
+    return 1;
+    }
+    else
+    {
+    return 0;
+    }
+
+  cout<<endl;
+}

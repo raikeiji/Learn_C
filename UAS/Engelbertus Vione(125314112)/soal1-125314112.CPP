@@ -1,0 +1,29 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+float x,saldo,a,c,jumlah1,bil[20];
+cout<<"masukkan jumlah data : ";
+cin>>x;
+for (a=0;a<x;a++)
+{
+  cout<<"masukkan data orang ke-"<<a+1<<":";
+  cin>>bil[a];
+}
+cout<<"Pada akhir tahun"<<"\n";
+float b=0.01;
+jumlah1=0;
+saldo=0;
+for (a=0;a<x;a++)
+{
+  for (c=0;c<12;c++)
+  {
+  saldo=(bil[a]+(bil[a]*b));
+  saldo++;
+  saldo=saldo+(saldo*b);
+  }
+  cout<<"saldo orang ke-"<<a+1<<":"<<saldo<<endl;
+}
+getch();
+}

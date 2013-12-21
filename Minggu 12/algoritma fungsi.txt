@@ -1,0 +1,8 @@
+algoritma fungsi :
+
+1.mulai
+2.definisikan fungsi 1 dengan perameter a   bertipe int 
+  dan fungsi tidak mengembalikan nilai.
+3.deklarasikan variabel b
+4...
+5.selesai

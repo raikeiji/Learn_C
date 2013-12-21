@@ -1,0 +1,27 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int y,x,z=1;
+y=45;
+cout<<"What is your guess? ";cin>>x;
+while (x!=y)
+{
+cout<<"\nTry again..What is your guess? ";cin>>x;z++;
+  if (x<y)
+  {
+  cout<<"\nYour guess too low";
+  }
+  else if (x>y)
+  {
+  cout<<"\nYour guess too high";
+  }
+  else
+  {
+  cout<<"\nCongratulation! Your got it right";
+  }
+}
+cout<<"\nit took you only "<<z<<" tries yo guess";
+getch();
+}

@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int makul[3]={1,2,3};
+int two_dim[3][10];
+int i, j,sum;
+for (i=0; i<3; i++)
+{
+cout<<"\nMasukkan mata kuliah ke- "<<makul[i];
+for (j=0; j<10; j++)
+{
+cout<<"\nnilai siswa ke-"<<j+1<<" : ";
+cin>>two_dim[i][j];
+}
+
+}
+for (i=0;i<3; i++)
+{
+  sum=0;
+  for(j=0;j<10;j++)
+  {
+  sum=sum+two_dim[i][j];
+  }
+  sum=sum/10;
+  cout<<"rata-rata nilai siswa "<<makul[i];
+  cout<<" adalah : "<<sum<<"\n";
+}
+getch();
+}

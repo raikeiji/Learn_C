@@ -1,0 +1,22 @@
+//program c++ konversi detik untuk menampilkan jam menit dan detik
+ 
+#include <iostream.h>
+#include <conio.h>
+main()
+
+{
+long int jam,menit,detik,s,sisa;
+cout<<"Program Konversi Detik Ke Jam, Menit & Detik\n";
+cout<<"============================================\n";
+cout<<"masukkan Detik : "; cin>>detik; cout<<endl;
+jam=detik/3600;
+sisa=detik%3600;
+menit=sisa/60;
+s=sisa%60;
+cout<<detik ; cout<<" Detik = ";
+cout<<jam ; cout<<" Jam ";
+cout<<menit ; cout<<" Menit ";
+cout<<s ; cout<<" detik ";
+cout<<endl;
+return 0;
+}

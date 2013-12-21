@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int tgl,bln,thn;
+cout<<"masukkan tanggal: ";cin>>tgl;
+cout<<"masukkan bulan  : \n";cin>>bln;
+cout<<"masukkan tahun  : \n";cin>>thn;
+
+getch();
+}

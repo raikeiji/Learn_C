@@ -1,0 +1,21 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+  clrscr();
+  char nsatu,ndua;
+  int usatu,udua;
+  cout<<"masukkan nama: ";cin>>nsatu;
+  cout<<"\nmasukkan umur\n: ";cin>>usatu;
+  cout<<"\nmasukkan nama: ";cin>>nsatu;
+  cout<<"\nmasukkan umur: ";cin>>udua;
+  if(usatu>udua)
+  {
+  cout<<nsatu<<"lebih tua dari"<<ndua;
+  }
+  else
+  {
+  cout<<ndua<<"\nlebih tua dari"<<nsatu;
+  }
+  getch();
+}

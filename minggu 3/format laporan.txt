@@ -1,0 +1,9 @@
+format laporan:
+
+tujuan 5%
+listing program 30%
+analisa+flowchart/pseudocode 40%
+output (capture) 20%
+daftar pustaka 5%
+
+yang dikerjakan lat 3.2, lat 3.3, dan tugas no. 2-6

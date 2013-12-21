@@ -1,0 +1,23 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+long a,b,c,d;
+a=0;
+b=0;
+c=0;
+d=0;
+cout<<"Masukkan nilai : ";cin>>a;
+while ((a>=0)&&(a<=100))
+{
+c=c+a;
+b++;
+cout<<"Masukkan nilai : ";
+cin>>a;
+}
+d=(c/b);
+cout<<"Rata-rata" <<" " <<b <<" "<<"nilai adalah"<<" " <<d;
+getch();
+}
+
